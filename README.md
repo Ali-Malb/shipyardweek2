@@ -1,43 +1,47 @@
-# Svelte + Vite
+The Procrastination Machine
 
-This template should help get you started developing with Svelte in Vite.
+Procrastination Machine is a straightforward web game that models the speed with which an efficient labour period might transform into procrastination.
 
-## Recommended IDE Setup
+The player begins the game with the goal of concentrating on his or her job. There are various types of distractions, however, such as TikTok and YouTube that allow the player to increase their distraction count. The point isn't to win, it's to picture how easily the distractions can get the better of you.
 
-[VS Code](https://code.visualstudio.com/) + [Svelte](https://marketplace.visualstudio.com/items?itemName=svelte.svelte-vscode).
+Built with Svelte to learn a new framework with a fun and interactive project.
 
-## Need an official Svelte framework?
+Features
 
-Check out [SvelteKit](https://github.com/sveltejs/kit#readme), which is also powered by Vite. Deploy anywhere with its serverless-first approach and adapt to various platforms, with out of the box support for TypeScript, SCSS, and Less, and easily-added support for mdsvex, GraphQL, PostCSS, Tailwind CSS, and more.
+Begin a work session
 
-## Technical considerations
+Monitor distractions as they occur
 
-**Why use this over SvelteKit?**
+Various distractors with varying levels of impact
 
-- It brings its own routing solution which might not be preferable for some users.
-- It is first and foremost a framework that just happens to use Vite under the hood, not a Vite app.
+Reactive User Interface using Svelte
 
-This template contains as little as possible to get started with Vite + Svelte, while taking into account the developer experience with regards to HMR and intellisense. It demonstrates capabilities on par with the other `create-vite` templates and is a good starting point for beginners dipping their toes into a Vite + Svelte project.
+Simple and interactive game play.
 
-Should you later need the extended capabilities and extensibility provided by SvelteKit, the template has been structured similarly to SvelteKit so that it is easy to migrate.
+Technologies Used
 
-**Why include `.vscode/extensions.json`?**
+Svelte
 
-Other templates indirectly recommend extensions via the README, but this file allows VS Code to prompt the user to install the recommended extension upon opening the project.
+JavaScript
 
-**Why enable `checkJs` in the JS template?**
+HTML
 
-It is likely that most cases of changing variable types in runtime are likely to be accidental, rather than deliberate. This provides advanced typechecking out of the box. Should you like to take advantage of the dynamically-typed nature of JavaScript, it is trivial to change the configuration.
+CSS
 
-**Why is HMR not preserving my local component state?**
+Vite
 
-HMR state preservation comes with a number of gotchas! It has been disabled by default in both `svelte-hmr` and `@sveltejs/vite-plugin-svelte` due to its often surprising behavior. You can read the details [here](https://github.com/sveltejs/svelte-hmr/tree/master/packages/svelte-hmr#preservation-of-local-state).
+How to Run
 
-If you have state that's important to retain within a component, consider creating an external store which would not be replaced by HMR.
+Download/clone the project.
 
-```js
-// store.js
-// An extremely simple external store
-import { writable } from 'svelte/store'
-export default writable(0)
-```
+Open the project folder.
+
+Install the necessary dependencies, as follows:
+
+npm install
+
+To start the development server, run:
+
+npm run dev
+
+Open browser - Open the local URL given in the terminal.
